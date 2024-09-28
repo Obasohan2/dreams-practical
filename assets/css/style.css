@@ -22,7 +22,7 @@ h1, h2 {
 }
 #theme-menu {
     float: right;
-    font-size: 280%;
+    font-size: 200%;
 }
 
 /*styling navigation links */
@@ -41,4 +41,10 @@ letter-spacing: 4px;
 #theme-menu a {
     text-decoration: none;
     color: inherit;
+}
+#theme-menu a:hover {
+border-bottom: 1px solid #000080;
+}
+.active {
+    border-bottom: 1px solid #000080;
 }
