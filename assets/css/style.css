@@ -12,7 +12,7 @@ body {
     color: #000080;
 }
 
- /* headings and theme-menu */
+ /* headings and theme */
 
 h1, h2 {
     color: lato, san-serif;
@@ -20,9 +20,9 @@ h1, h2 {
     letter-spacing: 4px;
     color:#00806b;
 }
-#theme-menu {
-    float: right;
-    font-size: 200%;
+#theme {
+    float: left;
+    font-size: 280%;
 }
 
 /*styling navigation links */
@@ -42,9 +42,42 @@ letter-spacing: 4px;
     text-decoration: none;
     color: inherit;
 }
+
+/* mouse over link */
 #theme-menu a:hover {
 border-bottom: 1px solid #000080;
 }
 .active {
     border-bottom: 1px solid #000080;
 }
+
+/*background image*/
+
+#barbgout {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#barbg-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/barbg.jpeg") no-repeat center center/cover;
+
+    /* loading page animation zoom effect */
+    animation-name: barbg-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+/* level of zoom for background image */
+@keyframes barbg-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+
+}
+
