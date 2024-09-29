@@ -164,7 +164,7 @@ h2 {
 p {
     text-indent: 30px;
 }
-
+/*style footer containing the social newtork*/
 #socialm {
     text-align: center;
     padding: 20px 0;
@@ -180,4 +180,14 @@ p {
 }
 .copyright{
     text-align: justify;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
