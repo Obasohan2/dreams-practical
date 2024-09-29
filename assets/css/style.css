@@ -18,7 +18,7 @@ h1,
 h2 {
     color: lato, san-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #00806b;
 }
 
@@ -34,14 +34,15 @@ h2 {
     letter-spacing: 4px;
 }
 
-#theme-menu li {
+h2 {
+color: #000080;
+}
+
+#theme-menu > li {
     float: right;
     list-style-type: none;
     margin-right: 10px;
-}
-
-h2 {
-    color: #000080;
+    display: inline-block;
 }
 
 #theme-menu a {
@@ -71,6 +72,7 @@ h2 {
     height: 600px;
     width: 100%;
     background: url("../images/barbg.jpeg") no-repeat center center/cover;
+    margin-top: 2%;
 
     /* loading page animation zoom effect */
     animation-name: barbg-zoom;
@@ -110,9 +112,59 @@ h2 {
     position: absolute;
 }
 
+.opening-tm {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    text-align: left;
+    line-height:2em;
+    display: table;
+
+    table, th, td {
+        border: none;
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      th, td {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    
+      }
+
+      th, td {
+        padding: 2px;
+      }
+}
+
 .barb-d {
-    height: 200px;
-    width: 80%;
-   
-   
+    float: left;
+    padding: 15px;
+}
+.opening-hours {
+    text-align: center;
+    color:#000080;
+    margin-bottom: auto;
+    
+}
+
+p {
+    text-indent: 30px;
+}
+#socialm {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#socialm i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
