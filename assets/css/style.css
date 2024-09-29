@@ -35,10 +35,10 @@ h2 {
 }
 
 h2 {
-color: #000080;
+    color: #000080;
 }
 
-#theme-menu > li {
+#theme-menu>li {
     float: right;
     list-style-type: none;
     margin-right: 10px;
@@ -112,49 +112,59 @@ color: #000080;
     position: absolute;
 }
 
+/* styling the table for the opening time */
+
+.opening-hours {
+    text-align: center;
+    color: #000080;
+}
+
 .opening-tm {
     margin: auto;
     width: 40%;
     padding: 10px;
     text-align: left;
-    line-height:2em;
+    line-height: 2em;
     display: table;
 
-    table, th, td {
+    table,
+    th,
+    td {
         border: none;
-      }
-      
-      table {
+    }
+
+    table {
         width: 100%;
         border-collapse: collapse;
-      }
-      
-      th, td {
+    }
+
+    th,
+    td {
         padding: 8px;
         text-align: center;
         border-bottom: 1px solid #ddd;
-    
-      }
 
-      th, td {
+    }
+
+    th,
+    td {
         padding: 2px;
-      }
+    }
 }
-
+/* styling the cover text */
+.choose {
+    margin-bottom: 1%;
+}
 .barb-d {
     float: left;
     padding: 15px;
-}
-.opening-hours {
-    text-align: center;
-    color:#000080;
-    margin-bottom: auto;
-    
+    margin-top: 1%;
 }
 
 p {
     text-indent: 30px;
 }
+
 #socialm {
     text-align: center;
     padding: 20px 0;
@@ -167,4 +177,7 @@ p {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+.copyright{
+    text-align: justify;
 }
