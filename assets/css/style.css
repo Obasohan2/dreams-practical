@@ -26,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #00806b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* headings and theme */
@@ -173,9 +176,10 @@ h2 {
 }
 
 .barb-d {
-    float: left;
     padding: 15px;
     margin-top: 1%;
+    text-align: center;
+    line-height: 2;
 }
 
 p {
