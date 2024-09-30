@@ -115,15 +115,13 @@ h2 {
     font-family: Arial, Helvetica, sans-serif, sans-serif;
     text-transform: capitalize;
     letter-spacing: 3px;
-
     width: 400px;
     height: 120px;
     padding-top: 10px;
     padding-left: 40px;
     margin-right: 30%;
-
-    background-color: hsla(247, 65%, 55%, 0.373);
-
+    border-radius: 25px;
+    background-color: rgba(203, 220, 200, 0.5);
     writing-mode: horizontal-tb;
     bottom: 50px;
     right: 150px;
@@ -137,8 +135,18 @@ h2 {
     color: #000080;
 }
 
+.barbingvideo {
+  width: 100%;
+  max-height: 30.875rem;
+  height: 100%;
+  margin: 1.25rem auto;
+  padding: 1.051%;
+  justify-items: center;
+}
+
 .opening-tm {
-    margin: auto;
+    margin-left: 50%;
+    margin-bottom: 20%;
     width: 40%;
     padding: 10px;
     text-align: left;
@@ -171,7 +179,7 @@ h2 {
 }
 
 /* styling the cover text */
-.choose {
+.barb-item {
     margin-bottom: 1%;
 }
 
@@ -180,10 +188,8 @@ h2 {
     margin-top: 1%;
     text-align: center;
     line-height: 2;
-}
-
-p {
-    text-indent: 30px;
+    box-shadow: 1px 1px 20px;
+    background-color: rgb(199, 218, 199);
 }
 
 /*style footer containing the social newtork*/
@@ -203,6 +209,7 @@ p {
 
 .copyright {
     text-align: justify;
+    text-indent: 1%;
 }
 
 /* Gallery page */
