@@ -6,10 +6,26 @@
     box-sizing: border-box;
 }
 
+/* General styles */
 body {
-    font-family: lato, sans-serif;
-    font-weight: 300;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* Generic project styles */
     color: #000080;
+    font-family: lato, sans-serif;
+}
+
+/* Header */
+
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #00806b;
 }
 
 /* headings and theme */
@@ -34,15 +50,15 @@ h2 {
     letter-spacing: 4px;
 }
 
+/*overriding the general text color*/
 h2 {
     color: #000080;
 }
 
 #theme-menu>li {
-    float: right;
+    float: inline-end;
     list-style-type: none;
     margin-right: 10px;
-    display: inline-block;
 }
 
 #theme-menu a {
@@ -76,7 +92,7 @@ h2 {
 
     /* loading page animation zoom effect */
     animation-name: barbg-zoom;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-fill-mode: forwards;
 }
 
@@ -104,9 +120,8 @@ h2 {
     margin-right: 30%;
 
     background-color: hsla(247, 65%, 55%, 0.373);
-    border-block: solid;
-    writing-mode: horizontal-tb;
 
+    writing-mode: horizontal-tb;
     bottom: 50px;
     right: 150px;
     position: absolute;
@@ -151,10 +166,12 @@ h2 {
         padding: 2px;
     }
 }
+
 /* styling the cover text */
 .choose {
     margin-bottom: 1%;
 }
+
 .barb-d {
     float: left;
     padding: 15px;
@@ -164,6 +181,7 @@ h2 {
 p {
     text-indent: 30px;
 }
+
 /*style footer containing the social newtork*/
 #socialm {
     text-align: center;
@@ -178,16 +196,25 @@ p {
     padding: 5%;
     color: #3a3a3a;
 }
-.copyright{
+
+.copyright {
     text-align: justify;
 }
 
 /* Gallery page */
 #photos img {
     width: 100%;
-    line-height: 1em;
+    line-height: 16 px;
 }
 
 #photos {
     line-height: 0;
 }
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {}
