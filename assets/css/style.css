@@ -54,6 +54,19 @@ h2 {
     font-size: 110;
     letter-spacing: 4px;
     list-style-type: none;
+
+
+    #theme {
+        display: flex;
+    }
+
+    #theme > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
 
 /*overriding the general text color*/
@@ -177,8 +190,8 @@ main {
 
 /*opening time*/
 .opening-tm {
-    margin-left: 30%;
-    width: 30%;
+    margin-left: 10%;
+    width: 70%;
     padding: 10px;
     text-align: left;
     line-height: 2em;
@@ -188,12 +201,13 @@ main {
     table,
     th,
     td {
-        border: none;
+        border: 1px solid;
     }
 
     table {
         width: 100%;
-        border-collapse: collapse;
+        
+      
     }
 
     th,
@@ -210,6 +224,13 @@ main {
     }
 }
 
+.opening-tm {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* styling the cover text */
 .barb-item {
     margin-bottom: 1%;
@@ -224,7 +245,7 @@ main {
     background-color: rgb(199, 218, 199);
 }
 
-/*style footer containing the social newtork*/
+/*footer containing the social newtork*/
 #socialm {
     text-align: center;
     padding: 20px 0;
@@ -243,6 +264,25 @@ main {
     text-align: justify;
     text-indent: 1%;
 }
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
 /* Gallery page */
 #photos img {
@@ -304,6 +344,7 @@ main {
         display: flex;
         flex-direction: row;
     }
+
 }
 
 
