@@ -20,11 +20,13 @@
         <a href="index.html">
             <h1 id="theme">Barber Shop</h1>
         </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">X</label>
         <nav>
             <ul id="theme-menu">
-                <li><a href="signup.html">Sign Up</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
             </ul>
         </nav>
     </header>
@@ -33,17 +35,18 @@
     <main>
         <section id="barbgout">
             <div id="barbg-image">
-
-
-            </div>
-            <div id="containertxt">
-                <h2>barber Shop</h2>
-                <h3>your place to visit and relax whilst being cared for by our team of expert barbers</h3>
+                <div id="containertxt">
+                    <h2>barber Shop</h2>
+                    <h3>your place to visit and relax whilst being cared for by our team of expert barbers</h3>
+                </div>
             </div>
         </section>
+
         <!-- detail about barber shop -->
         <section class="barb-d">
-            <div class="barb-item"><h2>why visit barber shop</h2></div>
+            <div class="barb-item">
+                <h2>why visit barber shop</h2>
+            </div>
             <div>
                 <p>Our Barber Shop is one of the oldest and most respected Barber Shop, grown into an international
                     barber shop with shops across UK. Barber Shop Dublin, is synonymous with men’s barber shops,
@@ -60,18 +63,9 @@
             </div>
 
         </section>
-<section>
-    <div class="barbingvideo">
-    <h3>BEARDS STYLING</h3>
-    <video width="500" height="400" controls>
-        <source src="assets/video/BEARD BARBER STYLE Cutting Style.mp4" type="video/mp4">
-        <source src="assets/video/BEARD BARBER STYLE Cutting Style.ogg" type="video/ogg">
-      </video>
-    </div>
-</section>
+
         <!--Opening hours-->
         <section class="opening-tm">
-        
             <div>
                 <div class="opening-hours">
                     <h2>Opening Hours</h2>
@@ -98,16 +92,16 @@
                         <td>09.00 AM - 6.00 PM</td>
                     </tr>
                     <tr>
-                    <td>FRIDAY</td>
-                    <td>09.00 AM - 6.00 PM</td>
+                        <td>FRIDAY</td>
+                        <td>09.00 AM - 6.00 PM</td>
                     </tr>
                     <tr>
                         <td>SATURDAY</td>
                         <td>10.00 AM - 3.00 PM</td>
                     </tr>
                     <tr>
-                    <td>SUNDAY</td>
-                    <td>10.00 AM - 3.00 PM</td>
+                        <td>SUNDAY</td>
+                        <td>10.00 AM - 3.00 PM</td>
                     </tr>
                 </table>
             </div>
@@ -137,7 +131,9 @@
                     <i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
-        <div class="copyright"><p>Copyright © Barber Shop 2024</p></div>
+        <div class="copyright">
+            <p>Copyright © Barber Shop 2024</p>
+        </div>
 
         <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
     </footer>
