@@ -22,7 +22,7 @@
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">X</label>
         <i class="fa-solid fa-bars"></i>
-        
+
         <nav>
             <ul id="theme-menu">
                 <li><a href="index.html">Home</a></li>
@@ -32,50 +32,68 @@
         </nav>
     </header>
 
-<main>
-    <h2>Text input fields</h2>
+    <!-- Main content -->
+    <main>
+        <section id="signup">
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
+                <h2>Let's get you signed up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">News Letter</label>
+                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">New Customer</label>
+                        <input type="radio" name="running_preference" id="trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Home Service</label>
+                        <input type="radio" name="running_preference" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Sign Up</button>
+            </form>
+        </section>
+    </main>
 
-    <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="John"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" value="Doe">
-    </form>
-    
-    <p>Note that the form itself is not visible.</p>
-    
-    <p>Also note that the default width of text input fields is 20 characters.</p>
-</main>
+    <footer>
+        <ul id="socialm">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+        <div class="copyright">
+            <p>Copyright © Barber Shop 2024</p>
+        </div>
 
-<footer>
-    <ul id="socialm">
-        <li>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)">
-                <i class="fa-brands fa-facebook"></i></a>
-        </li>
-        <li>
-            <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)">
-                <i class="fa-brands fa-twitter-square"></i></a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit our YouTube page (opens in a new tab)">
-                <i class="fa-brands fa-youtube-square"></i></a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)">
-                <i class="fa-brands fa-instagram"></i></a>
-        </li>
-    </ul>
-    <div class="copyright">
-        <p>Copyright © Barber Shop 2024</p>
-    </div>
-
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-</footer>
+        <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    </footer>
 </body>
 
 </html>
