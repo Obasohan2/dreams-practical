@@ -14,7 +14,7 @@ Barbing shops are everywhere all around the world and it popularity in the UK an
 
 <h3>Colour Scheme</h3>
 
-<p>>As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users. Light brown and green are very typical colours in traditional Barber shop, with the milk & green used for upholstery.</p>
+<p>As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users. Light brown and green are very typical colours in traditional Barber shop, with the milk & green used for upholstery.</p>
 
 <p>In my css file I have used variables to declare colours, and then used these throughout the css file. I was recently introduced to this method during a code institute study and had some help from slack chat room - it is a useful convention to use as it allows you to alter the colour throughout the website if you decide to update a colour, by changing the colour once in the variable.</p>
 
@@ -54,7 +54,7 @@ HTML, CSS
 <li>Favicon.io To create favicon.</li>
 </ul>
 
-IMAGES
+ <p><strong>IMAGES</strong></p>
 
 <img src="assets/images/Screenshot (25).png" alt="defect sign up page" width="500" height="600">
 <img src="assets/images/Screenshot (24).png" alt="Home Page" width="500" height="600">
@@ -85,11 +85,11 @@ IMAGES
 <P>I used this You Tube tutorial to learn more on website responsive </P>
 <P>I  researched on <a href="https://www.w3schools.com">W3SCHOOLS</a> to learn more on website responsive and semantics and applied the knowledge</P>
 <P>I  researched on this <a href="https://developer.mozilla.org">MDN</a> to learn more on html and CSS semantics </P>
-<p>I used code from <a href="www.codeinstitute.net"> Code Institute</a> to for my webpage.</p>
+<p>I knowledged code aquired from <a href="www.codeinstitute.net"> Code Institute</a> to for my webpage.</p>
 
 <h3>Content</h3>
 
-<p>All imagery photos for my site were pulled from google image.</p>
+<p>All gallery photos for my site were pulled from google image.</p>
 
 <p>All other content for the site, such as introduction messages and instructions were written by myself.</p>
 
