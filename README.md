@@ -4,7 +4,7 @@ Welcome Dreams Obasohan,
 
 #Barber Shop
 
-![Barber Shop shown on a variety of screen sizes](assets/images/the-quiz-arms.png)
+![Barber Shop shown on a variety of screen sizes] (assets/images/barbg.jpeg)
 
 Visit the deployed site: [Barber Shop](https://obasohan2.github.io/dreams-practical/)
 
