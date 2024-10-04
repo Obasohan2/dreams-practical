@@ -17,6 +17,20 @@ body {
     font-family: lato, sans-serif;
 }
 
+/* headings and theme */
+
+h1,
+h2 {
+    font-family: lato, san-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00806b;
+}
+
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 
 header {
@@ -31,14 +45,9 @@ header {
     align-items: baseline;
 }
 
-/* headings and theme */
-
-h1,
-h2 {
-    color: lato, san-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #00806b;
+#theme-menu a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #theme {
@@ -51,22 +60,13 @@ h2 {
 /*styling navigation links */
 
 #theme-menu {
-    font-size: 110;
+    font-size: 15px;
     letter-spacing: 4px;
     list-style-type: none;
+}
 
-
-    #theme {
-        display: flex;
-    }
-
-    #theme>li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
+#theme>li {
+    padding-left: 1rem;
 }
 
 /*overriding the general text color*/
@@ -131,24 +131,35 @@ main {
     flex-direction: column;
 }
 
-/*background image*/
+#containertxt {
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    text-transform: capitalize;
+    width: 30%;
+    padding: 30px 10px;
+    background-color: rgba(203, 220, 200, 0.5);
+    writing-mode: horizontal-tb;
+    bottom: 40px;
+    right: 60px;
+    position: absolute;
+    border-radius: 10px 50px;
+    text-align: justify;
 
-#barbgout {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
 }
+
+
+/*background image*/
 
 #barbg-image {
     height: 600px;
-    width: 100%;
+    width: 99%;
     background: url("../images/barbg.jpeg") no-repeat center center/cover;
     margin-top: auto;
+    position: relative;
 
     /* loading page animation zoom effect */
     animation-name: barbg-zoom;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -163,24 +174,6 @@ main {
     }
 }
 
-#containertxt {
-    font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    width: 400px;
-    height: 120px;
-    padding-top: 20px;
-    padding-left: 40px;
-    margin-right: 50px;
-    border-radius: 25px;
-    background-color: rgba(203, 220, 200, 0.5);
-    writing-mode: horizontal-tb;
-    bottom: 50px;
-    right: 20px;
-    position: absolute;
-}
-
 /* styling the table for the opening time */
 
 .opening-hours {
@@ -192,40 +185,37 @@ main {
 .opening-tm {
     margin-left: 10%;
     width: 70%;
-    padding: 10px;
+    padding: 40px;
     text-align: left;
     line-height: 2em;
     display: table;
     justify-content: center;
+}
 
-    table,
-    th,
-    td {
-        border: 1px solid;
-    }
+table,
+th,
+td {
+    border: 1px solid;
+}
 
-    table {
-        width: 100%;
-        border-collapse: collapse;
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
 
-    }
-
-    th,
-    td {
-        padding: 8px;
-        text-align: center;
-        border-bottom: 1px solid #ddd;
-    }
-
-    th,
-    td {
-        padding: 2px;
-    }
+th,
+td {
+    padding: 2px;
 }
 
 .opening-tm {
-    background: url('../images/dublin-city.webp') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -238,12 +228,14 @@ main {
 }
 
 .barb-d {
-    padding: 15px;
+    padding: 50px;
     margin-top: 1%;
     text-align: center;
     line-height: 2;
     box-shadow: 1px 1px 20px;
     background-color: rgb(199, 218, 199);
+    display: flex;
+    margin-top: 5%;
 }
 
 /* Form */
@@ -251,7 +243,7 @@ main {
 #signup {
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 80px 10% 0 10%;
     flex-grow: 1;
 }
 
@@ -263,7 +255,6 @@ main {
     margin-top: auto;
     border-radius: 25px;
 }
-
 
 #signup-form>h2 {
     color: #000080;
@@ -288,8 +279,8 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: rgba(203, 220, 200, 0.5);
 }
-
 
 .join-button {
     margin-top: 20px;
@@ -297,8 +288,9 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     background-color: rgba(203, 220, 200, 0.5);
-    border: 1px solid #000080;;
+    border: 1px solid #000080;
     border-radius: 5px;
+    color: #000080;
 }
 
 /*footer containing the social newtork*/
@@ -329,6 +321,16 @@ main {
     }
 }
 
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -341,68 +343,44 @@ main {
         padding-right: 1rem;
     }
 
-    /* Gallery page */
-    #photos img {
-        width: 100%;
-        line-height: 16 px;
+    #theme-menu {
+        display: flex;
     }
 
-    #photos {
-        line-height: 0;
+    #theme-menu>li {
+        padding-left: 1rem;
     }
 
+    #theme {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        flex: 1 0 auto;
+        margin-top: 50px;
+    }
 }
-    /* Media query: tablets and larger (768px and up) */
-    @media screen and (min-width: 768px) {
 
-        /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-        }
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #000080;
+    }
 
-        #theme-menu {
+    .nav-toggle-label {
+        display: none;
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        /* Reasons section */
+        #benefits {
             display: flex;
-        }
-
-        #theme-menu>li {
-            padding-left: 1rem;
-        }
-
-        .nav-toggle-label {
-            display: none;
-        }
-
-        #theme {
-            font-size: 280%;
-            line-height: 75px;
-            margin: 0 0.5rem;
-        }
-
-        /* Main content */
-        main {
-            /* Push main content down to accommodate larger header */
-            flex: 1 0 auto;
-            margin-top: 50px;
+            flex-direction: row;
         }
     }
-
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
-
-
-        @media screen and (min-width: 1200px) {
-
-            /* Reasons section */
-            #benefits {
-                display: flex;
-                flex-direction: row;
-            }
-        }
-    }
+}
