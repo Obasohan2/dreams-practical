@@ -54,6 +54,14 @@ HTML, CSS
 <li>Favicon.io To create favicon.</li>
 </ul>
 
+IMAGES
+
+<img src="assets/images/Screenshot (25).png" alt="defect sign up page" width="500" height="600">
+<img src="assets/images/Screenshot (24).png" alt="Home Page" width="500" height="600">
+<img src="assets/images/Screenshot (23).png" alt="Gallery page" width="500" height="600">
+<img src="assets/images/Screenshot (22).png" alt="Sign Up page" width="500" height="600">
+
+
 <h3>Deployment & Local Development</h3>
 
 <p>Deployment</p>
@@ -75,8 +83,8 @@ HTML, CSS
 <P>Code Used</P>
 
 <P>I used this You Tube tutorial to learn more on website responsive </P>
-<P>I used this You <a href="https://www.w3schools.com">W3SCHOOLS</a> to learn more on website responsive and semantics </P>
-<P>I used this <a href="https://developer.mozilla.org">MDN</a> to learn more on html and CSS semantics </P>
+<P>I  researched on <a href="https://www.w3schools.com">W3SCHOOLS</a> to learn more on website responsive and semantics and applied the knowledge</P>
+<P>I  researched on this <a href="https://developer.mozilla.org">MDN</a> to learn more on html and CSS semantics </P>
 <p>I used code from <a href="www.codeinstitute.net"> Code Institute</a> to for my webpage.</p>
 
 <h3>Content</h3>
