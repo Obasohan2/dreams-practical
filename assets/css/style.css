@@ -132,21 +132,21 @@ main {
 }
 
 #containertxt {
-    font-size: 110%;
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
-    text-transform: capitalize;
-    width: 30%;
-    padding: 30px 10px;
-    background-color: rgba(203, 220, 200, 0.5);
-    writing-mode: horizontal-tb;
-    bottom: 40px;
-    right: 60px;
-    position: absolute;
-    border-radius: 10px 50px;
-    text-align: justify;
-
+/* Final rgba value sets the opacity so it is semi-transparent */
+font-family: Arial, Helvetica, sans-serif, sans-serif;
+background-color: rgba(203, 220, 200, 0.5);
+font-size: 110%;
+text-transform: capitalize;
+position: absolute;
+bottom: 30px;
+width: 30%;
+right: 60px;
+min-height: 200px;
+padding-top: 40px;
+padding-left: 10px;
+text-align:center;
+border-radius: 10px;
 }
-
 
 /*background image*/
 
@@ -279,7 +279,6 @@ td {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(203, 220, 200, 0.5);
 }
 
 .join-button {
@@ -313,8 +312,8 @@ td {
     text-indent: 1%;
 }
 
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     #photos {
         column-count: 2;
         column-gap: 0;
@@ -351,6 +350,10 @@ td {
         padding-left: 1rem;
     }
 
+    .nav-toggle-label {
+        display: none;
+    }
+
     #theme {
         font-size: 280%;
         line-height: 75px;
@@ -375,6 +378,13 @@ td {
         display: none;
     }
 
+      /* Gallery */
+      #photos {
+        column-count: 4;
+        column-gap: 0;
+    }
+    
+}
     @media screen and (min-width: 1200px) {
 
         /* Reasons section */
