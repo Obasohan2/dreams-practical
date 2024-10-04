@@ -1,10 +1,8 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Dreams Obasohan,
-
 #Barber Shop
 
-![Barber Shop shown on a variety of screen sizes] (assets/images/barbg.jpeg)
+![Barber Shop backgroung image shown on a variety of screen sizes] (assets/images/barbg.jpeg)
 
 Visit the deployed site: [Barber Shop](https://obasohan2.github.io/dreams-practical/)
 
@@ -28,7 +26,7 @@ I have used rgba(203, 220, 200, 0.5) to display transparent background colour.</
 
 <h3>Typography</h3>
 
-<p>>Google Fonts was used to import the chosen fonts for use in the site.<br>
+<p>Google Fonts was used to import the chosen fonts for use in the site.<br>
  For the Page Title I have used the google font font-family: Arial, Helvetica, sans-serif, sans-serif and lato, san-serif. This <br>is based on a calligraphy style and I have chosen them as their looks like the type of font you would see on a barber shop name sign</p>
 
 
@@ -45,7 +43,7 @@ Ensuring that there is a sufficient colour contrast throughout the site.</p>
 <ul>
 HTML, CSS
 
-<li>>Github - To save and store the files for the website.</li
+<li><a href="https://github.com">Github</a> - To save and store the files for the website.</li
 
 <li>GitPod - IDE used to create the site.</li>
 
@@ -60,9 +58,9 @@ HTML, CSS
 
 <p>Deployment</p>
 
-<p>The site is deployed using GitHub Pages - https://obasohan2.github.io/dreams-practical/signup.html. </p>
+<p>The site is deployed using GitHub Pages - <a href="https://obasohan2.github.io/dreams-practical">Barber Shop</a>. </p>
 
-<h3>To Deploy the site using GitHub Pages:</h3>>
+<h3>To Deploy the site using GitHub Pages:</h3>
 <ol>
 <li>Login (or signup) to Github.</li>
 <li>Go to the repository for this project, obasohan2/dreams-practical.</li>
@@ -77,9 +75,9 @@ HTML, CSS
 <P>Code Used</P>
 
 <P>I used this You Tube tutorial to learn more on website responsive </P>
-<P>I used this You https://www.w3schools.com/html/ to learn more on website responsive and semantics </P>
-<P>I used this https://developer.mozilla.org to learn more on practices for the how to play section </P>
-<p>I used this video tutorial on YouTube by James Q Quick to learn how to insert the local storage into the high scores page.</p>
+<P>I used this You <a href="https://www.w3schools.com">W3SCHOOLS</a> to learn more on website responsive and semantics </P>
+<P>I used this <a href="https://developer.mozilla.org">MDN</a> to learn more on html and CSS semantics </P>
+<p>I used code from <a href="www.codeinstitute.net"> Code Institute</a> to for my webpage.</p>
 
 <h3>Content</h3>
 
