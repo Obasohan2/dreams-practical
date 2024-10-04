@@ -2,130 +2,98 @@
 
 Welcome Dreams Obasohan,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+#Barber Shop
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+![Barber Shop shown on a variety of screen sizes](assets/images/the-quiz-arms.png)
 
-## Gitpod Reminders
+Visit the deployed site: [Barber Shop](https://obasohan2.github.io/dreams-practical/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Barbing shops are everywhere all around the world and it popularity in the UK and Ireland. It is estimated that over half population in he world visit barber shop are regular basis hence the importance of a barber shop in proximity to every residence.
 
-`python3 -m http.server`
+## CONTENTS
 
-A blue button should appear to click: _Make Public_,
+<h2>Design</h2>
 
-Another blue button should appear to click: _Open Browser_.
+<h3>Colour Scheme</h3>
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+<p>>As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users. Light brown and green are very typical colours in traditional Barber shop, with the milk & green used for upholstery.</p>
 
-A blue button should appear to click: _Make Public_,
+<p>In my css file I have used variables to declare colours, and then used these throughout the css file. I was recently introduced to this method during a code institute study and had some help from slack chat room - it is a useful convention to use as it allows you to alter the colour throughout the website if you decide to update a colour, by changing the colour once in the variable.</p>
 
-Another blue button should appear to click: _Open Browser_.
+<p>I have used #00806b & #000080 as the primary and secondary colours used for the sites text.<br>
+I have used #ffffff as the overlay used over the sites background image.<br>
+I have used #3a3a3a for the border-shadow of the header<br>
+I have used rgba(203, 220, 200, 0.5) to display transparent background colour.</p>
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+<h3>Typography</h3>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<p>>Google Fonts was used to import the chosen fonts for use in the site.<br>
+ For the Page Title I have used the google font font-family: Arial, Helvetica, sans-serif, sans-serif and lato, san-serif. This <br>is based on a calligraphy style and I have chosen them as their looks like the type of font you would see on a barber shop name sign</p>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
 
-### Connecting your Mongo database
+<h3>Accessibility</h3>
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+<p>I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by: <br>
+Using semantic HTML.<br>
+Using a hover state on the nav element on the site to make it clear to the user if they are hovering over a button.<br>
+Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.<br>
+Ensuring that there is a sufficient colour contrast throughout the site.</p>
 
-------
+<h3>Technologies Used</h3> 
+<p>Languages Used</p>
+<ul>
+HTML, CSS
 
-## Release History
+<li>>Github - To save and store the files for the website.</li
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<li>GitPod - IDE used to create the site.</li>
 
-**June 18, 2024,** Add Mongo back into template
+<li>Google Fonts - To import the fonts used on the website.</li>
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+<li>Google Developer Tools - To troubleshoot and test features, solve issues with responsiveness and styling.</li>
 
-**May 28 2024:** Fix Mongo and Links installs
+<li>Favicon.io To create favicon.</li>
+</ul>
 
-**April 26 2024:** Update node version to 16
+<h3>Deployment & Local Development</h3>
 
-**September 20 2023:** Update Python version to 3.9.17.
+<p>Deployment</p>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<p>The site is deployed using GitHub Pages - https://obasohan2.github.io/dreams-practical/signup.html. </p>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<h3>To Deploy the site using GitHub Pages:</h3>>
+<ol>
+<li>Login (or signup) to Github.</li>
+<li>Go to the repository for this project, obasohan2/dreams-practical.</li>
+<li>Click the settings button.</li>
+<li>Select pages in the left hand navigation menu.</li>
+<li>From the source dropdown select main branch and press save.</li>
+<p>The site has now been deployed, please note that this process may take a few minutes before the site goes live.</p>
+</ol>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<h2>Credits</h2> 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<P>Code Used</P>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<P>I used this You Tube tutorial to learn more on website responsive </P>
+<P>I used this You https://www.w3schools.com/html/ to learn more on website responsive and semantics </P>
+<P>I used this https://developer.mozilla.org to learn more on practices for the how to play section </P>
+<p>I used this video tutorial on YouTube by James Q Quick to learn how to insert the local storage into the high scores page.</p>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<h3>Content</h3>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<p>All imagery photos for my site were pulled from google image.</p>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<p>All other content for the site, such as introduction messages and instructions were written by myself.</p>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<h3>Acknowledgments</h3>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<P>I would like to acknowledge the following people:</P>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<P><strong>Jubril Akolade</strong> - My Code Institute Mentor.</P>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<p><strong>Ioan Zaharia</strong> - who was giving listening ear and encouragements when i was face with some difficulties.</p>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<p>The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to loo through the responsive webpage and look over the code.</p>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
