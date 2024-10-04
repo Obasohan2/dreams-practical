@@ -82,7 +82,7 @@ HTML, CSS
 
 <P>Code Used</P>
 
-<P>I used this You Tube tutorial to learn more on website responsive </P>
+<P>I used various youtube tutorials to find more options as to solution when i am stocked </P>
 <P>I  researched on <a href="https://www.w3schools.com">W3SCHOOLS</a> to learn more on website responsive and semantics and applied the knowledge</P>
 <P>I  researched on this <a href="https://developer.mozilla.org">MDN</a> to learn more on html and CSS semantics </P>
 <p>I knowledged code aquired from <a href="www.codeinstitute.net"> Code Institute</a> to for my webpage.</p>
