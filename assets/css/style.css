@@ -315,7 +315,7 @@ td {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #photos {
-        column-count: 2;
+        column-count: 1;
         column-gap: 0;
     }
 }
@@ -330,8 +330,8 @@ td {
     line-height: 0;
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 
     /* Header */
     nav {
@@ -354,6 +354,11 @@ td {
         display: none;
     }
 
+       /* Gallery */
+       #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
     #theme {
         font-size: 280%;
         line-height: 75px;
@@ -383,7 +388,6 @@ td {
         column-count: 4;
         column-gap: 0;
     }
-    
 }
     @media screen and (min-width: 1200px) {
 
@@ -393,4 +397,3 @@ td {
             flex-direction: row;
         }
     }
-}
