@@ -75,7 +75,7 @@ HTML, CSS
 <li><a href="https://developer.chrome.com/docs/">Google Developer Tools</a> - To troubleshoot and test features, solve issues with responsiveness and styling.</li>
 <li><a href="https://favicon.io/">favicon.io</a> To create favicon.</li>
 <li><a href="https://ui.dev/amiresponsive">Am I Responsive?</a> To show the website image on a range of devices.
-<img src="assets/images/Screenshot (26).png" alt="Sign Up page" width="500" height="600"></li> 
+<img src="assets/images/Screenshot (26).png" alt="test page"> 
 </ul>
 
 <h2>Manual Testing and Code Validation</h2>
