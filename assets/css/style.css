@@ -318,6 +318,10 @@ td {
         column-count: 1;
         column-gap: 0;
     }
+
+#theme {
+    text-align: justify;
+}
 }
 
 /* Gallery page */
