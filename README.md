@@ -43,15 +43,19 @@ Ensuring that there is a sufficient colour contrast throughout the site.</p>
 <ul>
 HTML, CSS
 
-<li><a href="https://github.com">Github</a> - To save and store the files for the website.</li
+<li><a href="https://github.com">Github</a> - To save and store the files for the website.</li>
+<li><a href="https://gitpod.io/">GitPod</a> - IDE used to create the site.</li>
+<li><a href="https://fonts.google.com/">favicon.io</a>Google Fonts - To import the fonts used on the website.</li>
+<li><a href="https://developer.chrome.com/docs/">Google Developer Tools</a> - To troubleshoot and test features, solve issues with responsiveness and styling.</li>
+<li><a href="https://favicon.io/">favicon.io</a> To create favicon.</li>
+<li><a href="https://ui.dev/amiresponsive">Am I Responsive?</a> To show the website image on a range of devices.</li> 
+</ul>
 
-<li>GitPod - IDE used to create the site.</li>
-
-<li>Google Fonts - To import the fonts used on the website.</li>
-
-<li>Google Developer Tools - To troubleshoot and test features, solve issues with responsiveness and styling.</li>
-
-<li>Favicon.io To create favicon.</li>
+<h2>Manual Testing and Code Validation</h2>
+<ul>
+<li>I used  <a href="https://jigsaw.w3.org/css-validator">HTML Validator w3c</a> to validate the HTML codes</li>
+<li>I used  <a href="https://validator.w3.org">CSS Validator jigsaw</a>to validate the CSS codes</li>
+<li>I used the google chrome "Lighthouse" Developer Tools to test and analise with score results as follows: Performance: 72%, Accessibility: 98%, Best Practices: 96%, SEO:100%</li>
 </ul>
 
  <p><strong>IMAGES</strong></p>
@@ -60,6 +64,7 @@ HTML, CSS
 <img src="assets/images/Screenshot (24).png" alt="Home Page" width="500" height="600">
 <img src="assets/images/Screenshot (23).png" alt="Gallery page" width="500" height="600">
 <img src="assets/images/Screenshot (22).png" alt="Sign Up page" width="500" height="600">
+<img src="assets/images/Screenshot (26).png" alt="Sign Up page" width="500" height="600">
 
 
 <h3>Deployment & Local Development</h3>
@@ -76,6 +81,26 @@ HTML, CSS
 <li>Select pages in the left hand navigation menu.</li>
 <li>From the source dropdown select main branch and press save.</li>
 <p>The site has now been deployed, please note that this process may take a few minutes before the site goes live.</p>
+</ol>
+
+<h2>Local Development</h2>
+<h3>How to Fork</h3>
+<p>To fork the repository</p>:
+
+<ol>
+<li>Log in (or sign up) to Github.</li>
+<li>Go to the repository for this project, <a href="https://obasohan2.github.io/dreams-practical">Barber Shop</a>.</li>
+<li>Click the Fork button in the top right corner.</li>
+</ol>
+
+<h3>How to Clone</h3>
+<p>To clone the repository:</p>
+<ol>
+<li>Log in (or sign up) to GitHub.</li>
+<li>Go to the repository for this project, <a href="https://obasohan2.github.io/dreams-practical">Barber Shop</a>.</li>
+<li>Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.</li>
+<li>Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.</li>
+<li>Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.</li>
 </ol>
 
 <h2>Credits</h2> 
