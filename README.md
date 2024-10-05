@@ -33,7 +33,7 @@ I have used rgba(203, 220, 200, 0.5) to display transparent background colour.</
 
 <h3>The Home Page</h3>
 <p>The home page of Barber Shop displays the sites name as a title and then a container which holds some cover text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. The home page contains the opening time of the barber shop.</p>
-<p>The home page also have a feature for 5s zoom out of the background image</p>
+<p>The home page also have a feature for background image 5s zoom out.</p>
 
 <h3>Gallery page</h3>
 <p>The game page displays the sites name as a title. This also acts as a link back to the home page. This gallery page contains the photos of Barber Shop such as hair styling and hair cut.</p>  
