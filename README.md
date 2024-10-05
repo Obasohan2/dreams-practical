@@ -47,7 +47,7 @@ Choosing a sans serif font for the site - these fonts are suitable for people wi
 <p>In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the webpage. </p>
 
 <h3>Sign Up page</h3>
-<p>This sign up pages contain a form that required to be filled where there are options for News letter, New Customer and Home service. It is colour friendly and very easily accessible.</p>
+<p>The sign up page contain a form that required to be filled with user's details as requested, there are options for News letter, New Customer and Home service. It is colour friendly and very easily accessible.</p>
 
 <h3>Typography</h3>
 
