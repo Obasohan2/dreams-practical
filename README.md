@@ -23,15 +23,38 @@ I have used #ffffff as the overlay used over the sites background image.<br>
 I have used #3a3a3a for the border-shadow of the header<br>
 I have used rgba(203, 220, 200, 0.5) to display transparent background colour.</p>
 
+<h3>Features</h3>
+<P>The website is comprised of a home page, gallery page and sign up page. All Pages on the website are responsive and have: A favicon in the browser tab.</P>
+
+<ul>
+<li>Favicon</li>
+</ul>
+<p>The title of the site at the top of every page. This title also acts as a link back to the home page. The Barber Shop Title.</p>
+
+<h3>The Home Page</h3>
+<p>The home page of Barber Shop displays the sites name as a title and then a container which holds some cover text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. The home page contains the opening time of the barber shop.</p>
+<p>The home page also have a feature for 5s zoom out of the background image</p>
+
+<h3>Gallery page</h3>
+<p>The game page displays the sites name as a title. This also acts as a link back to the home page. This gallery page contains the photos of Barber Shop such as hair styling and hair cut.</p>  
+
+<h3>Future Implementations</h3>
+<p>In future implementations I would like to:</p>
+<p>I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:-</p>
+<p>Using semantic HTML.</p>
+<p>Using a hover state on all navigation menu buttons on the site to make it clear to the user if they are hovering over a button.
+Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia. Ensuring that there is a sufficient colour contrast throughout the site. contrast button Contrast button hover contrast text</p>
+<p>In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the webpage. </p>
+
+<<h3>Sign Up page</h3>>
+<p>This sign up pages contain a form that required to be filled where there are options for News letter, New Customer and Home service. It is colour friendly and very easily accessible.</p>
 
 <h3>Typography</h3>
 
 <p>Google Fonts was used to import the chosen fonts for use in the site.<br>
  For the Page Title I have used the google font font-family: Arial, Helvetica, sans-serif, sans-serif and lato, san-serif. This <br>is based on a calligraphy style and I have chosen them as their looks like the type of font you would see on a barber shop name sign</p>
 
-
 <h3>Accessibility</h3>
-
 <p>I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by: <br>
 Using semantic HTML.<br>
 Using a hover state on the nav element on the site to make it clear to the user if they are hovering over a button.<br>
@@ -55,7 +78,7 @@ HTML, CSS
 <h2>Manual Testing and Code Validation</h2>
 <ul>
 <li>I used  <a href="https://jigsaw.w3.org/css-validator">HTML Validator w3c</a> to validate all the HTML codes which resulted: "Document checking completed. No errors or warnings to show"</li>
-<li>I used  <a href="https://validator.w3.org">CSS Validator jigsaw</a>to validate the CSS codes to validate the CSS style codes and resulted: "Congratulations! No Error Found"</li>
+<li>I used  <a href="https://validator.w3.org">CSS Validator jigsaw</a> to validate the CSS codes to validate the CSS style codes and resulted: "Congratulations! No Error Found"</li>
 <li>I used the google chrome "Lighthouse" Developer Tools to test and analise with score results as follows: Performance: 72%, Accessibility: 98%, Best Practices: 96%, SEO:100%</li>
 </ul>
 
@@ -68,11 +91,8 @@ HTML, CSS
 
 
 <h3>Deployment & Local Development</h3>
-
 <p>Deployment</p>
-
 <p>The site is deployed using GitHub Pages - <a href="https://obasohan2.github.io/dreams-practical">Barber Shop</a>. </p>
-
 <h3>To Deploy the site using GitHub Pages:</h3>
 <ol>
 <li>Login (or signup) to Github.</li>
