@@ -25,6 +25,8 @@ I have used rgba(203, 220, 200, 0.5) to display transparent background colour.</
 
 <h3>Features</h3>
 <P>The website is comprised of a home page, gallery page and sign up page. All Pages on the website are responsive and have: A favicon in the browser tab.</P>
+<h3>The Footer</h3>
+<p><strong>The footer section</strong> includes links to the relevant social media sites for Barber Shop. The links will open to a new tab to allow easy navigation for the user. The footer is valuable to the user as it encourages them to keep connected via social media</p>
 
 <ul>
 <li>Favicon</li>
@@ -34,6 +36,7 @@ I have used rgba(203, 220, 200, 0.5) to display transparent background colour.</
 <h3>The Home Page</h3>
 <p>The home page of Barber Shop displays the sites name as a title and then a container which holds some cover text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. The home page contains the opening time of the barber shop.</p>
 <p>The home page also have a feature for background image 5s zoom out.</p>
+
 
 <h3>Gallery page</h3>
 <p>The game page displays the sites name as a title. This also acts as a link back to the home page. This gallery page contains the photos of Barber Shop such as hair styling and hair cut.</p>  
@@ -80,14 +83,15 @@ HTML, CSS
 <li>I used  <a href="https://jigsaw.w3.org/css-validator">HTML Validator w3c</a> to validate all the HTML codes which resulted: "Document checking completed. No errors or warnings to show"</li>
 <li>I used  <a href="https://validator.w3.org">CSS Validator jigsaw</a> to validate the CSS codes to validate the CSS style codes and resulted: "Congratulations! No Error Found"</li>
 <li>I used the google chrome "Lighthouse" Developer Tools to test and analise with score results as follows: Performance: 72%, Accessibility: 98%, Best Practices: 96%, SEO:100%</li>
+<img src="assets/images/Screenshot (29).png" alt="Lighthouse Score">
+
 </ul>
 
  <p><strong>IMAGES</strong></p>
 
-<img src="assets/images/Screenshot (25).png" alt="defect sign up page" width="500" height="600">
-<img src="assets/images/Screenshot (24).png" alt="Home Page" width="500" height="600">
-<img src="assets/images/Screenshot (23).png" alt="Gallery page" width="500" height="600">
-<img src="assets/images/Screenshot (22).png" alt="Sign Up page" width="500" height="600">
+<img src="assets/images/Screenshot (25).png" alt="Sign Up page">
+<img src="assets/images/Screenshot (23).png" alt="Home Page">
+<img src="assets/images/Screenshot (24).png" alt="Gallery page">
 
 
 <h3>Deployment & Local Development</h3>
