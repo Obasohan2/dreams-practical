@@ -25,8 +25,9 @@ I have used rgba(203, 220, 200, 0.5) to display transparent background colour.</
 
 <h3>Features</h3>
 <P>The website is comprised of a home page, gallery page and sign up page. All Pages on the website are responsive and have: A favicon in the browser tab.</P>
+
 <h3>The Footer</h3>
-<p><strong>The footer section</strong> includes links to the relevant social media sites for Barber Shop. The links will open to a new tab to allow easy navigation for the user. The footer is valuable to the user as it encourages them to keep connected via social media</p>
+<p><strong>The footer section</strong> includes links to the relevant social media sites for Barber Shop. The links will open to a new tab to allow easy navigation for the user. The footer is valuable to the user as it encourages them to keep connected via social media and the copyright note</p>
 
 <ul>
 <li>Favicon</li>
