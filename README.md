@@ -48,13 +48,14 @@ HTML, CSS
 <li><a href="https://fonts.google.com/">favicon.io</a>Google Fonts - To import the fonts used on the website.</li>
 <li><a href="https://developer.chrome.com/docs/">Google Developer Tools</a> - To troubleshoot and test features, solve issues with responsiveness and styling.</li>
 <li><a href="https://favicon.io/">favicon.io</a> To create favicon.</li>
-<li><a href="https://ui.dev/amiresponsive">Am I Responsive?</a> To show the website image on a range of devices.</li> 
+<li><a href="https://ui.dev/amiresponsive">Am I Responsive?</a> To show the website image on a range of devices.
+<img src="assets/images/Screenshot (26).png" alt="Sign Up page" width="500" height="600"></li> 
 </ul>
 
 <h2>Manual Testing and Code Validation</h2>
 <ul>
-<li>I used  <a href="https://jigsaw.w3.org/css-validator">HTML Validator w3c</a> to validate the HTML codes</li>
-<li>I used  <a href="https://validator.w3.org">CSS Validator jigsaw</a>to validate the CSS codes</li>
+<li>I used  <a href="https://jigsaw.w3.org/css-validator">HTML Validator w3c</a> to validate all the HTML codes which resulted: "Document checking completed. No errors or warnings to show"</li>
+<li>I used  <a href="https://validator.w3.org">CSS Validator jigsaw</a>to validate the CSS codes to validate the CSS style codes and resulted: "Congratulations! No Error Found"</li>
 <li>I used the google chrome "Lighthouse" Developer Tools to test and analise with score results as follows: Performance: 72%, Accessibility: 98%, Best Practices: 96%, SEO:100%</li>
 </ul>
 
@@ -64,7 +65,6 @@ HTML, CSS
 <img src="assets/images/Screenshot (24).png" alt="Home Page" width="500" height="600">
 <img src="assets/images/Screenshot (23).png" alt="Gallery page" width="500" height="600">
 <img src="assets/images/Screenshot (22).png" alt="Sign Up page" width="500" height="600">
-<img src="assets/images/Screenshot (26).png" alt="Sign Up page" width="500" height="600">
 
 
 <h3>Deployment & Local Development</h3>
