@@ -86,7 +86,7 @@ HTML, CSS
 <ul>
 <li>I used  <a href="https://jigsaw.w3.org/css-validator">HTML Validator w3c</a> to validate all the HTML codes which resulted: "Document checking completed. No errors or warnings to show"</li>
 <li>I used  <a href="https://validator.w3.org">CSS Validator jigsaw</a> to validate the CSS codes to validate the CSS style codes and resulted: "Congratulations! No Error Found"</li>
-<li>I used the google chrome "Lighthouse" Developer Tools to test and analise with score results as follows: Performance: 72%, Accessibility: 98%, Best Practices: 96%, SEO:100%</li>
+<li>I used the google chrome "Lighthouse" Developer Tools to test and analise with score results as follows: Performance: 66%, Accessibility: 98%, Best Practices: 96%, SEO:100%</li>
 <img src="assets/images/Screenshot (29).png" alt="Lighthouse Score">
 </ul>
 
