@@ -46,7 +46,7 @@ I have used rgba(203, 220, 200, 0.5) to display transparent background colour.</
 Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia. Ensuring that there is a sufficient colour contrast throughout the site. contrast button Contrast button hover contrast text</p>
 <p>In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the webpage. </p>
 
-<<h3>Sign Up page</h3>>
+<h3>Sign Up page</h3>
 <p>This sign up pages contain a form that required to be filled where there are options for News letter, New Customer and Home service. It is colour friendly and very easily accessible.</p>
 
 <h3>Typography</h3>
