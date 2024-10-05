@@ -76,7 +76,7 @@ HTML, CSS
 <li><a href="https://github.com">Github</a> - To save and store the files for the website.</li>
 <li><a href="https://gitpod.io/">GitPod</a> - IDE used to create the site.</li>
 <li><a href="https://fonts.google.com/">Google Fonts</a> - To import the fonts used on the website.</li>
-<li><a href="https://developer.chrome.com/docs/"> - Google Developer Tools</a> - To troubleshoot and test features, solve issues with responsiveness and styling.</li>
+<li><a href="https://developer.chrome.com/docs/">Google Developer Tools</a> - To troubleshoot and test features, solve issues with responsiveness and styling.</li>
 <li><a href="https://favicon.io/">favicon.io</a> - To create favicon.</li>
 <li><a href="https://ui.dev/amiresponsive">Am I Responsive?</a> - To show the website image on a range of devices.
 <img src="assets/images/Screenshot (26).png" alt="test page"> 
